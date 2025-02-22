@@ -20,7 +20,7 @@ body {
     .container{
         min-width: 480px;
         min-height:500px ;
-        background-color: cadetblue;
+        background-color:red;
     }
 }
 
