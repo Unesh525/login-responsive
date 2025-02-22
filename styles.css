@@ -15,6 +15,11 @@ body {
     body {
         background-color: lightcoral;
         font-size: 14px;
+        
+    }
+    .container{
+        min-width: 480px;
+        min-height:500px ;
     }
 }
 
