@@ -18,8 +18,8 @@ body {
         
     }
     .container{
-        min-width: 480px;
-        min-height:500px ;
+        width: 480px;
+        height:500px ;
         background-color:red;
     }
 }
