@@ -3,7 +3,51 @@
     padding: 0px;
 
 }
+body {
+    background-color: lightgreen;
+    font-size: 16px;
+}
+.container{
+    width: 668px;
+    height:300px ;
+    margin-left: 370px ;
+    margin-top: 50px;
+    background-color:rgb(255, 255, 255);
+    border-radius: 2rem;
+    
+}
 
+h1{
+
+    text-align: center;
+    padding-top:30px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 100px;
+    color: brown;
+
+}
+form{
+    margin-top: 40px;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 200px;
+}
+input{
+    width: 240px;
+    margin-top: 5px;
+    height: 30px;
+}
+button{
+    margin-top: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: 70px;
+    background-color: skyblue;
+    border: none;
+    border-radius: 0.20rem;
+    text-align: center;
+}
 
 
 /* 📱 Extra Small Devices (Phones, max-width: 480px) */
@@ -107,15 +151,97 @@
 /* 💻 Medium Devices (Laptops, max-width: 1024px) */
 @media screen and (max-width: 1024px) {
     body {
-        background-color: lightgoldenrodyellow;
-        font-size: 17px;
+        background-color: lightgreen;
+        font-size: 16px;
+    }
+    .container{
+        width: 668px;
+        height:300px ;
+        margin-left: 200px ;
+        margin-top: 50px;
+        background-color:rgb(255, 255, 255);
+        border-radius: 2rem;
+        
+    }
+    
+    h1{
+
+        text-align: center;
+        padding-top:30px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 100px;
+        color: brown;
+
+    }
+    form{
+        margin-top: 40px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 200px;
+    }
+    input{
+        width: 240px;
+        margin-top: 5px;
+        height: 30px;
+    }
+    button{
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        margin-left: 70px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 0.20rem;
+        text-align: center;
     }
 }
 
 /* 🖥️ Large Devices (Desktops, max-width: 1200px) */
 @media screen and (max-width: 1200px) {
     body {
-        background-color: lightskyblue;
-        font-size: 18px;
+        background-color: lightgreen;
+        font-size: 20px;
+    }
+    .container{
+        width: 1000px;
+        height:300px ;
+        margin-left: 100px ;
+        margin-top: 50px;
+        background-color:rgb(255, 255, 255);
+        border-radius: 2rem;
+        
+    }
+    
+    h1{
+
+        text-align: center;
+        padding-top:30px ;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-top: 100px;
+        color: brown;
+
+    }
+    form{
+        margin-top: 40px;
+    }
+    p{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-left: 400px;
+    }
+    input{
+        width: 240px;
+        margin-top: 5px;
+        height: 30px;
+    }
+    button{
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+        margin-left: 70px;
+        background-color: skyblue;
+        border: none;
+        border-radius: 0.20rem;
+        text-align: center;
     }
 }
